@@ -6,7 +6,7 @@ import com.sam.cheezycodedemo.R
 
 class BindingAdapterActivity : AppCompatActivity() {
 
-    
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
