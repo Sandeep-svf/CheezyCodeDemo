@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sam.cheezycodedemo" >
+    package="com.sam.cheezycodedemo">
 
     <application
         android:allowBackup="true"
@@ -8,10 +8,16 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CheezyCodeDemo" >
+        android:theme="@style/Theme.CheezyCodeDemo">
+        <activity
+            android:name=".androidbootcamp2023.viewModelsexmp.CountActivity"
+            android:exported="true" />
+        <activity
+            android:name=".pickimagecameragalary.PickImage"
+            android:exported="true" />
         <activity
             android:name=".roomdatabase.RoomDbMainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,9 +29,7 @@
             android:exported="true" />
         <activity
             android:name=".databindingwithlivedata.DataBindingLiveDataActivity"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".databinding.DataBindingMainActivity"
             android:exported="true" />

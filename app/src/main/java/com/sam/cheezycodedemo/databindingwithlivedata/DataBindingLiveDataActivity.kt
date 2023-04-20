@@ -22,9 +22,5 @@ class DataBindingLiveDataActivity : AppCompatActivity() {
         binding.liveDataViewModel = liveDataViewModel
         binding.lifecycleOwner = this
 
-
-
-
-
     }
 }

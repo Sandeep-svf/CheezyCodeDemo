@@ -4,32 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".livedata.MainActivity">
+    tools:context=".pickimagecameragalary.PickImage">
 
 
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="236dp"
+        android:layout_height="268dp"
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/ssta_item_view"
-        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        ></androidx.appcompat.widget.AppCompatTextView>
+        app:layout_constraintVertical_bias="0.498"></androidx.appcompat.widget.AppCompatImageView>
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="120dp"
         android:layout_height="40dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/update_button"
-        app:layout_constraintVertical_bias="0.75"
-        ></androidx.appcompat.widget.AppCompatButton>
-
-
+        app:layout_constraintVertical_bias="0.849"></androidx.appcompat.widget.AppCompatButton>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

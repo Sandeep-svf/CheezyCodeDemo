@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    compileSdk 33
+    compileSdk 32
 
     defaultConfig {
         applicationId "com.sam.cheezycodedemo"
@@ -36,6 +36,7 @@ android {
     }
 }
 def room_version = "2.5.0"
+def lifecycle_version = "2.6.1"
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.9.0'
@@ -58,6 +59,10 @@ dependencies {
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+
+
+
+
 
 
 }
