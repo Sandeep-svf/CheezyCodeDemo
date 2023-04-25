@@ -1,4 +1,4 @@
-package com.sam.androidbootcamp2023office.viewmodel
+package com.sam.cheezycodedemo.androidbootcamp2023.andoidbootcamp.viewmodelclass
 
 import androidx.lifecycle.ViewModel
 

@@ -1,10 +1,10 @@
-package com.sam.cheezycodedemo.androidbootcamp2023.viewModelsexmp
+package com.sam.cheezycodedemo.androidbootcamp2023.andoidbootcamp.viewmodelclass
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
-import com.sam.androidbootcamp2023office.viewmodel.CountryViewModel
 import com.sam.cheezycodedemo.R
 import com.sam.cheezycodedemo.databinding.ActivityCountBinding
 
@@ -17,6 +17,11 @@ class CountActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_count)
         viewModel = ViewModelProvider(this).get(CountryViewModel::class.java)
+
+        binding.countText.text = viewModel.getCurrentCount().toString()
+        binding.countButton.setOnClickListener(View.OnClickListener {
+            binding.countText.text = viewModel.getUpdatedCount().toString()
+        })
 
 
 
