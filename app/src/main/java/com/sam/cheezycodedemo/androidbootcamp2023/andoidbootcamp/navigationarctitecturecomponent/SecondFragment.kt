@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.findNavController
 import com.sam.cheezycodedemo.R
 import com.sam.cheezycodedemo.databinding.FragmentSecondBinding
 
@@ -24,6 +25,13 @@ class SecondFragment : Fragment() {
 
         val input : String? = requireArguments().getString("user_input")
         binding.textView.text = input.toString()
+
+
+        binding.button2.setOnClickListener(View.OnClickListener {
+            it.findNavController().navigate(R.id.action_secondFragment_to_finalFragment)
+
+        })
+
 
         return binding.root;
     }

@@ -12,11 +12,28 @@
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_homeFragment_to_secondFragment"
-            app:destination="@id/secondFragment" />
+            app:destination="@id/secondFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_rigth"
+            app:popEnterAnim="@anim/slid_in_right"
+            app:popExitAnim="@anim/slide_out_rigth" />
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
         android:name="com.sam.cheezycodedemo.androidbootcamp2023.andoidbootcamp.navigationarctitecturecomponent.SecondFragment"
         android:label="fragment_second"
-        tools:layout="@layout/fragment_second" />
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_finalFragment"
+            app:destination="@id/finalFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_rigth"
+            app:popEnterAnim="@anim/slid_in_right"
+            app:popExitAnim="@anim/slide_out_rigth"/>
+    </fragment>
+    <fragment
+        android:id="@+id/finalFragment"
+        android:name="com.sam.cheezycodedemo.androidbootcamp2023.andoidbootcamp.navigationarctitecturecomponent.FinalFragment"
+        android:label="fragment_final"
+        tools:layout="@layout/fragment_final" />
 </navigation>

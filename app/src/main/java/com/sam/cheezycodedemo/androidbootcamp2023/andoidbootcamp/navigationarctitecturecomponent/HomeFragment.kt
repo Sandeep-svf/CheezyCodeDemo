@@ -16,7 +16,6 @@ import com.sam.cheezycodedemo.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 
-
     private lateinit var binding: FragmentHomeBinding
 
     override fun onCreateView(

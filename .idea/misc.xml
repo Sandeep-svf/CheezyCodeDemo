@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/dmin/AndroidStudioProjects/CheezyCodeDemo/app/src/main/res/layout/activity_binding_adapter.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/dmin/AndroidStudioProjects/CheezyCodeDemo/app/src/main/res/layout/activity_coroutine_main.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/dmin/AndroidStudioProjects/CheezyCodeDemo/app/src/main/res/layout/activity_count.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/dmin/AndroidStudioProjects/CheezyCodeDemo/app/src/main/res/layout/activity_data_binding_live_data.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/dmin/AndroidStudioProjects/CheezyCodeDemo/app/src/main/res/layout/activity_data_binding_main.xml" value="0.20520833333333333" />
@@ -12,6 +13,7 @@
         <entry key="..\:/Users/dmin/AndroidStudioProjects/CheezyCodeDemo/app/src/main/res/layout/activity_pick_image.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/dmin/AndroidStudioProjects/CheezyCodeDemo/app/src/main/res/layout/activity_room_db_main.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/dmin/AndroidStudioProjects/CheezyCodeDemo/app/src/main/res/layout/activity_room_db_main2.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/dmin/AndroidStudioProjects/CheezyCodeDemo/app/src/main/res/layout/fragment_final.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/dmin/AndroidStudioProjects/CheezyCodeDemo/app/src/main/res/layout/fragment_home.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/dmin/AndroidStudioProjects/CheezyCodeDemo/app/src/main/res/layout/fragment_second.xml" value="0.20520833333333333" />
       </map>
